@@ -15,12 +15,12 @@ $(document).ready(function() {
 
     total = question1Input + question2Input + question3Input + question4Input + question5Input;
 
-    if (total <= 10) {
+    if (total <= 7) {
       $("#csharpResult").show()
-    } else if (total <= 30) {
-      $("javaResult").show()
+    } else if (total <= 12) {
+      $("#javaResult").show()
     } else {
-      $("phpResult").show()};
+      $("#phpResult").show()};
 
   });
 });
