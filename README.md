@@ -14,7 +14,7 @@ This webpage is intended to serve as a quiz that, upon completion, will give the
 * Use a terminal of your choice to access the webpage and its files by inputting: "git clone {the above clone link}"
 * Open the folder and open the link in the web browser of your choice to view it.
 _or_
-* Click on:  to see and interact with the website.
+* Click on: ------ to see and interact with the website.
 
 ## Known Bugs
 
@@ -26,11 +26,11 @@ If you run into any problems or have any inquiries about the project, please con
 
 ## Technologies Used
 
-HTML
-CSS
-Bootstrap
-JS
-jQuery
+* HTML
+* CSS
+* Bootstrap
+* JS
+* jQuery
 
 ### Legal
 
