@@ -4,11 +4,22 @@ $(document).ready(function() {
 
     var total = 0;
     var nameInput = $("input#name").val();
-    var question1Input = parseInt($("input#question1").val());
-    var question2Input = parseInt($("input#question2").val());
-    var question3Input = parseInt($("input#question3").val());
-    var question4Input = parseInt($("input#question4").val());
-    var question5Input = parseInt($("input#question5").val());
-  })
+    var question1Input = parseInt($("select#question1").val());
+    var question2Input = parseInt($("select#question2").val());
+    var question3Input = parseInt($("select#question3").val());
+    var question4Input = parseInt($("select#question4").val());
+    var question5Input = parseInt($("select#question5").val());
 
+    $(".name").text(nameInput);
+
+    total = question1Input + question2Input + question3Input + question4Input + question5Input;
+
+    if (total <= 10) {
+      $("#csharpResult").show()
+    } else if (total <= 30) {
+      $("javaResult").show()
+    } else {
+      $("phpResult").show()};
+
+  })
 })
