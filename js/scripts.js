@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  $(".sliding").slideDown(2000);
   $("#formOne").submit(function(event) {
 
     event.preventDefault();
