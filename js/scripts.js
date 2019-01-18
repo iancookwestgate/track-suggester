@@ -29,5 +29,17 @@ $(document).ready(function() {
       $("#javaResult").hide();
     }
 
+    $("html, body").animate ({
+      scrollTop: $("#csharpResult").offset().top
+    }, 2000);
+
+    $("html, body").animate ({
+      scrollTop: $("#javaResult").offset().top
+    }, 2000);
+
+    $("html, body").animate ({
+      scrollTop: $("#phpResult").offset().top
+    }, 2000);
+
   });
 });
