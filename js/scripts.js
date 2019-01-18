@@ -20,24 +20,17 @@ $(document).ready(function() {
       $("#csharpResult").show()
       $("#javaResult").hide()
       $("#phpResult").hide()
-      $("html, body").animate ({
-        scrollTop: $("#csharpResult").offset().top
-      }, 2000);
     } else if (total <= 12) {
       $("#javaResult").show()
       $("#csharpResult").hide()
       $("#phpResult").hide()
-      $("html, body").animate ({
-        scrollTop: $("#javaResult").offset().top
-      }, 2000);
     } else {
       $("#phpResult").show()
       $("#csharpResult").hide()
       $("#javaResult").hide()
-      $("html, body").animate ({
-        scrollTop: $("#phpResult").offset().top
-      }, 2000);
     }
 
+      $(".sliding").slideUp(2000);
+      
   });
 });
