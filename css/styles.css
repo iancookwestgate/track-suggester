@@ -7,6 +7,10 @@ body {
   color: gold;
 }
 
+.jumbotron {
+  display: none;
+}
+
 .text{
   background-color: rgba(100,100,100,0.75);
   border: 10px solid white;
