@@ -17,10 +17,17 @@ $(document).ready(function() {
 
     if (total <= 7) {
       $("#csharpResult").show()
+      $("#javaResult").hide()
+      $("#phpResult").hide()
     } else if (total <= 12) {
       $("#javaResult").show()
+      $("#csharpResult").hide()
+      $("#phpResult").hide()
     } else {
-      $("#phpResult").show()};
+      $("#phpResult").show()
+      $("#csharpResult").hide()
+      $("#javaResult").hide();
+    }
 
   });
 });
