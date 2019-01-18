@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $("#formOne").submit(function(event) {
+
     event.preventDefault();
 
     var total = 0;
@@ -21,5 +22,5 @@ $(document).ready(function() {
     } else {
       $("phpResult").show()};
 
-  })
-})
+  });
+});
