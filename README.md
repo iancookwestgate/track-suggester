@@ -17,7 +17,7 @@ This webpage is intended to serve as a quiz that, upon completion, will give the
 
 ## Known Bugs
 
-The gh-pages link inexplicably brings up just the README.md and not the website itself.
+No known bugs at this time.
 
 ## Support and contact details
 
