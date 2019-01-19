@@ -13,8 +13,6 @@ This webpage is intended to serve as a quiz that, upon completion, will give the
 * Clone this repository @ https://github.com/iwestgate931/track-suggester.git
 * Use a terminal of your choice to access the webpage and its files by inputting: "git clone {the above clone link}"
 * Open the folder and open the link in the web browser of your choice to view it.
-_or_
-* Click on: ------ to see and interact with the website.
 
 ## Known Bugs
 
